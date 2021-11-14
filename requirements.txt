@@ -1,0 +1,10 @@
+pyyaml
+Faker
+mysql
+mysql-connector
+mysqlclient
+psycopg2-binary
+python-dateutil
+six
+text-unidecode
+python-slugify

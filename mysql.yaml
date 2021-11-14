@@ -1,0 +1,129 @@
+connection:
+  host: 127.0.0.1
+  port: 3307
+  user: root
+  password: root
+  dbname: fundnel_tests
+tables:
+  user:
+    email: 
+      type: emailunique
+      except: 'NOT LIKE "%@fundnel.com"' WMkf2e7wy2C4phmh
+  # user_profile:
+  #   first_name: first_name
+  #   last_name: last_name
+  #   country_id: 
+  #     type: integer
+  #     min: 1
+  #     max: 100
+  #   contact_code_id: 
+  #     type: integer
+  #     min: 1
+  #     max: 100
+  #   contact: phone_number
+  #   professional_headline: paragraph
+  #   company_name: company_name
+  #   position: job
+  #   address: address
+  #   address2: address
+  #   nric: isbn
+  # user_investor_status:
+  #   company_name: company_name
+  #   opt_in_name: company_name
+  #   accreditation_id:
+  #     type: integer
+  #     min: 1
+  #     max: 12
+  #   country_tax_id:
+  #     type: choose
+  #     options: 
+  #       - 196
+  #       - 155
+  # v2_deal:
+  #   name: company_name
+  #   contact_first_name: first_name
+  #   contact_last_name: last_name
+  #   contact_email: email
+  #   contact_number: phone_number
+  #   tagline: isbn
+  #   homepage_tagline: isbn
+  #   short_description: paragraph
+  #   homepage_deal_description: 
+  #     type: paragraph
+  #     num: 1
+  #   fundraising_amount:
+  #     type: integer
+  #     min: 1000000
+  #     max: 100000000
+  #     step: 500000
+  #   minimum_investment:
+  #     type: integer
+  #     min: 5000
+  #     max: 1000000
+  #     step: 2500
+  #   investment_proceeds: 
+  #     type: paragraph
+  #     num: 3
+  #   company_background_overview: 
+  #     type: paragraph
+  #     num: 3
+  #   company_traction: 
+  #     type: paragraph
+  #     num: 3
+  #   market_opportunity: 
+  #     type: paragraph
+  #     num: 3
+  #   market_industry_overview: 
+  #     type: paragraph
+  #     num: 3
+  #   market_competition: 
+  #     type: paragraph
+  #     num: 3
+  #   financial_detail: 
+  #     type: paragraph
+  #     num: 3
+  # settlement:
+  #   amount_raised: 
+  #     type: float
+  #     min: 100000
+  #     max: 10000000
+  #     step: 25000
+  #   amount_investment: 
+  #     type: float
+  #     min: 100000
+  #     max: 10000000
+  #     step: 25000
+  # deal_settlement:
+  #   country_id:
+  #     type: integer
+  #     min: 1
+  #     max: 100
+  #   fullname: name
+  #   email: email
+  #   nric: isbn
+  #   country_code_id:
+  #     type: integer
+  #     min: 1
+  #     max: 100
+  #   contact: phone_number
+  #   investment_amount:
+  #     type: float
+  #     min: 5000
+  #     max: 1000000
+  #     step: 2500
+  # v2_document:
+  #   file_name: 
+  #     type: fixed
+  #     value: "1485160291.jpg"
+  #   file_content_type: 
+  #     type: fixed
+  #     value: "image/jpeg"
+  #   file_size: 
+  #     type: fixed
+  #     value: 456308
+  #   file_path:
+  #     type: fixed
+  #     value: "qa/deal/4/documents/1598256264_HMG1a-mN7Xc-.jpg"
+  #   hash:
+  #     type: fixed
+  #     value: "Bk0EMM1Q7H0G"
